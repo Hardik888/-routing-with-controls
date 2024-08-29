@@ -3,7 +3,7 @@ export type NavigationState = {
   routeParams?: Record<string, any>; // Optional You can Add data to your route like some UserInfo | which component are you coming from
 }
 export type Action = {
-  type: string; // This will a Trigger Action that will start an action to switch route
+  type: string; //  start an action to switch route like from home -> contacts , contacts -> profile
   data?: any; // Optional You can add data here
 }
 export type NavigationConfig = {
